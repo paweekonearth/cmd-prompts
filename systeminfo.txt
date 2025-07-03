@@ -1,0 +1,42 @@
+คำสั่ง systeminfo :
+Host name: ใช้เพื่อแสดงชื่อของคอมพิวเตอร์ (Host Name) ที่กำลังใช้งานอยู่
+Os name: ระบบปฏิบัติการ windows linux mac_os
+Os Uersion: รุ่นเฉพาะของระบบปฏิบัติการที่ติดตั้งอยู่บนคอมพิวเตอร์หรืออุปกรณ์ของคุณ
+Os Manufacturer: ผู้ผลิตระบบปฏิบัติการ (Operating System) หรือ ผู้พัฒนาและจัดจำหน่ายระบบปฏิบัติการ เช่น Microsoft (Windows), Apple (macOS), Google (Android) หรือ Linux 
+OS Configuration: การกำหนดค่าระบบปฏิบัติการ (Operating System) ผ่านทาง Command Prompt (cmd) ซึ่งเป็นอินเทอร์เฟซบรรทัดคำสั่งของ Windows
+OS Build Type: 
+Regiรstered Owner: บุคคลหรือนิติบุคคลที่มีชื่อปรากฏอยู่ในทะเบียนอย่างเป็นทางการว่าเป็นเจ้าของทรัพย์สินนั้นๆ
+Registered Organization:องค์กรที่ได้รับการจดทะเบียนอย่างเป็นทางการตามกฎหมาย หรือ องค์กรที่ได้ขึ้นทะเบียนกับหน่วยงานที่เกี่ยวข้อง
+Product ID: รหัสผลิตภัณฑ์ของ Windows (ใช้ในการลงทะเบียนหรือยืนยันลิขสิทธิ์)
+Original Install Date: วันที่ติดตั้ง Windows ครั้งแรก
+System Boot Time: วันที่/เวลาที่ระบบบูตเครื่องครั้งล่าสุด
+System Manufacturer:  ผู้ผลิตเครื่อง เช่น Dell, HP, Lenovo ฯลฯ
+System Model: รุ่นของเครื่องคอมพิวเตอร์
+System Type: ประเภทของระบบ เช่น 64-bit Operating System, x64-based processor	
+Processor(s):  รายละเอียดของ CPU ที่ติดตั้ง เช่น Intel Core i7, AMD Ryzen
+BIOS Version: เวอร์ชันของ BIOS หรือ UEFI ที่ใช้อยู่
+Windows Directory: ตำแหน่งของโฟลเดอร์ Windows 
+System Directory:โฟลเดอร์ของไฟล์ระบบสำคัญ
+Boot Device: อุปกรณ์ที่ใช้บูตระบบ เช่น ฮาร์ดดิสก์หรือ SSD
+System Locale: ภาษาสำหรับ non-Unicode programs เช่น th-TH (ไทย)
+Input Locale:  ภาษาของคีย์บอร์ด เช่น 0409:00000409 (อังกฤษ US)
+Time Zone:เขตเวลา เช่น SE Asia Standard Time
+Total Physical Memory: แรมทั้งหมดในเครื่อง
+Available Physical Memory: แรมที่ยังว่าง
+Virtual Memory: Max Size:หน่วยความจำเสมือนสูงสุดที่สามารถใช้ได้
+Virtual Memory: Available: หน่วยความจำเสมือนที่ว่างอยู่
+Virtual Memory: In Use: หน่วยความจำเสมือนที่ถูกใช้แล้ว
+Page File Location(s): ตำแหน่งของไฟล์ pagefile.sys ซึ่งใช้สำหรับ virtual memory
+Domain: ถ้าเป็นเครื่องในเครือข่ายองค์กร จะขึ้นชื่อ domain; ถ้าไม่ก็ขึ้นเป็น WORKGROUP
+Logon Server: ชื่อเซิร์ฟเวอร์ที่ใช้ในการเข้าสู่ระบบ (ถ้ามี; สำหรับระบบองค์กร)
+
+คำสั่ง ipconfig :
+
+Link-local IPv6 Address :เป็นที่อยู่ IPv6 เฉพาะภายในเครือข่าย (local only) ใช้สำหรับสื่อสารกับอุปกรณ์อื่นในเครือข่ายเดียวกันเท่านั้น มักขึ้นต้นด้วย fe80::  
+ใช้ภายในเครือข่าย LAN ไม่สามารถเข้าถึงจากภายนอกได้ ตัวอย่าง: fe80::1c2b:5eff:fe6a:3d1e%5
+
+IPv4 Address :ที่อยู่ IP เวอร์ชัน 4 ของเครื่องคุณในเครือข่าย เช่น 192.168.1.10  ใช้สำหรับระบุเครื่องในเครือข่ายอินเทอร์เน็ตหรือในเครือข่ายภายใน (LAN)
+
+subnet mask :ช้กำหนดว่าที่อยู่ IP ใดเป็น เครือข่ายเดียวกัน (Network) และ IP ใดเป็น เครื่องอื่น (Host)   ค่าทั่วไปคือ 255.255.255.0 สำหรับเครือข่ายภายใน (LAN)   ทำงานคู่กับ IPv4 เพื่อคำนวณขอบเขตของเครือข่าย
+
+Defaulf Gateway : ป็นที่อยู่ของอุปกรณ์ (เช่น เราเตอร์) ที่เชื่อมต่อคอมพิวเตอร์คุณไปยัง เครือข่ายภายนอกหรืออินเทอร์เน็ต   มักจะอยู่ในรูป 192.168.1.1 หรือ 10.0.0.1
